@@ -51,18 +51,17 @@ const INFO = {
 		{
 			title: "Software Engineer",
 			date: 'Oct 2022 - Present',
-			description:
-				" - Leveraging NestJS to rewrite the legacy monolithic software as microservices oriented application to meet the expectations of the Pleiades Neo project. "+
-			" - Maintenance in optimal operation condition of our key product and new features development to accommodate new spatial imagery standards.",
+			description: [	" - Leveraging NestJS to rewrite the legacy monolithic software as microservices oriented application to meet the expectations of the Pleiades Neo project. ",
+				" - Maintenance in optimal operation condition of our key product and new features development to accommodate new spatial imagery standards."],
 			logo: "https://www.cdnlogo.com/logos/a/96/airbus.svg",
 			stack: "Java | Spring | Typescript | NestJS | GitLab | Docker"
 		},
 		{
 			title: "IT Analyst/Developer ",
 			date: 'May 2021 - Sep 2022 ',
-			description:
-				"Analysis and Development of an IAM solution in PHP for a better management of the employee lifecycle (collection of the needs, framing, development...)"+
-			"Creation of dashboards to improve IT support management on Metabase",
+			description:["- Analysis and Development of an IAM solution in PHP for a better management of the employee lifecycle (collection of the needs, framing, development...)",
+			"- Creation of dashboards to improve IT support management on Metabase"]
+				,
 			logo: "./addev.jpg",
 			stack: "Php | Metabase | GitLab "
 		}

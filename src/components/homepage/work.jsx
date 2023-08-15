@@ -16,9 +16,11 @@ const Work = (props) => {
 					<div className="homepage-work-date">
 						|&nbsp;&nbsp;&nbsp;{date}
 					</div>
-					<div className="homepage-work-description">
-						{description}
-					</div>
+					{description.map( (project) => (
+						<div className="homepage-work-description">
+							{project}
+						</div>
+					))}
 					<div className="homepage-work-stack">
 						{stack}
 					</div>
