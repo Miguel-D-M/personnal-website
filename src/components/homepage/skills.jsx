@@ -21,7 +21,7 @@ const Skills = () => {
 								<img alt="JS" src="./javascript.png" className="responsive-img"/>
 							</div>
 							<div className="col s4 m2">
-								<img alt="React" src="./javascript.png" className="responsive-img"/>
+								<img alt="React" src="./react.png" className="responsive-img"/>
 							</div>
 						</div>
 					</div>
