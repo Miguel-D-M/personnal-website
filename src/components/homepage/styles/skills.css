@@ -1,0 +1,62 @@
+/* Import the global styles */
+@import "../../../data/styles.css";
+
+/* styles.css */
+/* Reset some default margins and paddings */
+body, h1, h3, h4, h5, h6, p, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+/* Basic container styling */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Section styling */
+.section {
+	margin-top: 10px;
+	padding: 20px 0;
+}
+
+/* Card styling */
+.card {
+	background-color: white;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.40);
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/* Card content styling */
+.card-content {
+	padding: 0;
+}
+
+/* Card title styling */
+.card-content h4 {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+/* Image container styling */
+.row.text-center {
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+/* Individual icon container styling */
+.col.s4.m2 {
+	flex: 0 0 auto;
+	padding: 10px;
+}
+
+/* Icon image styling */
+.responsive-img {
+	height: 60px;
+	width: 60px;
+}
