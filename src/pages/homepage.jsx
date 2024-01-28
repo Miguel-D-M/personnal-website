@@ -99,7 +99,7 @@ const Homepage = () => {
 			globe.destroy();
 			window.removeEventListener('resize', onResize);
 		}
-	}, [])
+	})
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
