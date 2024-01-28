@@ -16,6 +16,7 @@ import Skills from '../components/homepage/skills';
 import Education from '../components/homepage/education';
 import createGlobe from 'cobe'
 import { useSpring } from 'react-spring'
+import { Helmet } from 'react-helmet'
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -114,12 +115,14 @@ const Homepage = () => {
 
 	return (
 		<React.Fragment>
+			<Helmet>
 				<title>{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
+				</Helmet>
 
 			<div className="page-content">
 				<div className="content-wrapper">
