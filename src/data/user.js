@@ -18,6 +18,30 @@ const INFO = {
 			"My interest in computer programming started at an early age when I tried to customize my blog profile with some basic HTML and CSS and enjoyed beating my friends on facebook game by tweaking some JS values thanks to Chrome Devtool.\n" +
 			"Fast-forward to today, I'm a back-end software engineer at Airbus Defense and Space.",
 	},
+	skills : {
+		frontEndSkills:
+			[
+				{name : 'JavaScript',icon: "./js.svg"},
+				{name : 'React',icon: "./react.svg"},
+				{name : 'NextJS',icon: "./next.svg"}
+			],
+		backEndSkills:
+			[
+				{name : 'Java',icon: "./java.svg"},
+				{name : 'Spring',icon: "./spring.svg"},
+				{name : 'Node',icon: "./node.svg"},
+				{name : 'SQL',icon: "./sql.svg"},
+				{name : 'NoSQL',icon: "./nosql.svg"}
+			],
+		otherTools:
+			[
+				{name : 'Git',icon: "./git.svg"},
+				{name : 'Github',icon: "./github.svg"},
+				{name : 'Gitlab',icon: "./gitlab.svg"},
+				{name : 'Docker',icon: "./docker.svg"},
+				{name : 'AWS',icon: "./aws.svg"}
+			],
+	},
 	projects: [
 		{
 			title: "Student presence monitoring",
@@ -51,8 +75,8 @@ const INFO = {
 		{
 			title: "Software Engineer",
 			date: 'Oct 2022 - Present',
-			description: [	" - Leveraging NestJS to rewrite the legacy monolithic software as microservices oriented application to meet the expectations of the Pleiades Neo project. ",
-				" - Maintenance in optimal operation condition of our key product and new features development to accommodate new spatial imagery standards."],
+			description: [	" - Maintenance in optimal operation condition of our key product and new features development to accommodate new spatial imagery standards.",
+				" - Leveraging NestJS to rewrite the legacy monolithic software as microservices oriented application to meet the expectations of the Pleiades Neo project. "],
 			logo: "https://www.cdnlogo.com/logos/a/96/airbus.svg",
 			stack: "Java | Spring | Typescript | NestJS | GitLab | Docker"
 		},
@@ -65,6 +89,11 @@ const INFO = {
 			logo: "./addev.jpg",
 			stack: "Php | Metabase | GitLab "
 		}
+	],
+	map:[
+		{ location: [10.28333, -61.46667], size: 0.05 },
+		{ location: [14.5333, -60.9833], size: 0.05 },
+		{ location: [43.6, 1.433333], size: 0.05 }
 	]
 };
 

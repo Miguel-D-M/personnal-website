@@ -87,13 +87,6 @@
 	padding-bottom: 5px;
 }
 
-.homepage-skills {
-	mix-blend-mode: normal;
-	border-radius: 20px;
-	outline: 2px solid #6f6f6f;
-	flex-basis: 600px;
-	padding-top: 30px;
-}
 .homepage-education{
 	padding-top: 30px;
 }
@@ -152,4 +145,11 @@
 		margin-left: -25px;
 		margin-right: -25px;
 	}
+}
+.feather-text {
+	justify-content: center;
+	text-align: center;
+	font-family: 'GreatVibes', cursive;
+	font-size: 2rem; /* Adjust size as needed */
+	color: #5a4b41; /* A color that resembles ink */
 }
