@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -115,20 +114,18 @@ const Homepage = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
 				<title>{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
-			</Helmet>
 
 			<div className="page-content">
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+							<Logo width={logoSize} height={logoSize} link={false} />
 						</div>
 					</div>
 
@@ -148,7 +145,9 @@ const Homepage = () => {
 								<div className='homepage-image-container'>
 									<div className='homepage-image-wrapper'>
 										<img
-											src='homepage.jpg'
+											width={388}
+											height={388}
+											src='homepage.avif'
 											alt='about'
 											className='homepage-image'
 										/>

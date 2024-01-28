@@ -47,7 +47,7 @@ const INFO = {
 			title: "Student presence monitoring",
 			description:
 				"A website to help professor, faculty and student manage attendance ",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			logo: "java.svg",
 			linkText: "View Project",
 			link: "https://github.com/btissamnachit/GestionAppel",
 		},
@@ -56,7 +56,7 @@ const INFO = {
 			title: "Covid Helpdesk",
 			description:
 				"A website to help the vaccination process",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			logo: "java.svg",
 			linkText: "View Project",
 			link: "https://github.com/Miguel-D-M/VaccineHelper",
 		},
@@ -65,7 +65,7 @@ const INFO = {
 			title: "Kaggle like Project",
 			description:
 				"Testing various machine learning technics on a medical diagnosis dataset",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "python.svg",
 			linkText: "View Project",
 			link: "https://colab.research.google.com/drive/1Vx9f7yIeO6AZhKXZczSsO-tPey0PUmqM?usp=sharing",
 		},
@@ -86,7 +86,7 @@ const INFO = {
 			description:["- Analysis and Development of an IAM solution in PHP for a better management of the employee lifecycle (collection of the needs, framing, development...)",
 			"- Creation of dashboards to improve IT support management on Metabase"]
 				,
-			logo: "./addev.jpg",
+			logo: "./addev.avif",
 			stack: "Php | Metabase | GitLab "
 		}
 	],
