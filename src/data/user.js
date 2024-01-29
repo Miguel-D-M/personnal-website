@@ -75,8 +75,8 @@ const INFO = {
 		{
 			title: "Software Engineer",
 			date: 'Oct 2022 - Present',
-			description: [	" - Maintenance in optimal operation condition of our key product and new features development to accommodate new spatial imagery standards.",
-				" - Leveraging NestJS to rewrite the legacy monolithic software as microservices oriented application to meet the expectations of the Pleiades Neo project. "],
+			description: [	" - My role involves the development of innovative features to align with evolving spatial imagery standards, ensuring our product remains at the forefront of the industry.Working within a dynamic team environment, my contributions are multifaceted, ranging from feature development to meticulous testing and occasional bug fixing. This role demands a deep understanding of our complex legacy code, a challenge I have embraced to ensure comprehensive knowledge of all functionalities",
+				" - Transitioning our legacy monolithic software to a modern, microservices-oriented application using NestJS. the aim of this pivotal shift was not only to streamline our operations but also align our product with cutting-edge industry standards."],
 			logo: "https://www.cdnlogo.com/logos/a/96/airbus.svg",
 			stack: "Java | Spring | Typescript | NestJS | GitLab | Docker"
 		},
