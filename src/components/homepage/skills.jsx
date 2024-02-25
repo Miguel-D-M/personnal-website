@@ -18,11 +18,14 @@ const Skills = ({skills}) => {
 	const {frontEndSkills,backEndSkills,otherTools} = skills
 	return (
 		<div className="skills-container">
-			<h1 className="skills-header">Technical Skills</h1>
-			<SkillSet category="Frontend" skills={frontEndSkills} />
-			<SkillSet category="Backend" skills={backEndSkills} />
-			<SkillSet category="Other Tools" skills={otherTools} />
-		</div>
+			<h2 className="skills-header">Technical Skills</h2>
+			<div className="skills-content">
+				<SkillSet category="Frontend" skills={frontEndSkills} />
+				<SkillSet category="Backend" skills={backEndSkills} />
+				<SkillSet category="Other Tools" skills={otherTools} />
+			</div>
+			</div>
+
 	);
 };
 

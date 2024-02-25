@@ -1,15 +1,12 @@
 .skills-container {
 	background: #fff;
+
+}
+.skills-content {
 	max-width: 1000px;
 	margin: auto;
 	text-align: center;
 	width: 100%;
-}
-.skills-header {
-	text-align: center;
-	font-size: 2rem;
-	margin-bottom: 30px;
-	color: #333;
 }
 
 .skill-set {
